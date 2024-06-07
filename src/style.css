@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+   
+}
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200vh;
+}
+.cabecalho {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 200vh;
+    padding-left:6%;
+}
+  
+header {
+    background-color: cadetblue;
+    color: #182502;
+    padding: 30px 20px;
+}
+  
+main {
+    flex: 1;
+    padding: 20px;
+    color: #100838;
+}
+
+nav.menu-lateral{
+    width: 80px;
+    height: 100%;
+    background-color: cadetblue;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 #080225;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+nav.menu-lateral.expandir{
+    width: 250px;
+}
+
+.botao-expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+
+.botao-expandir > i{
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.menuItens{
+    transition: .2s;
+}
+
+ul li.ativo{
+    background-color: #080225;
+}
+
+ul li.menuItens:hover{
+    background: #080225;
+}
+
+ul li.menuItens a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.menuItens a .txt-link{
+    margin-left: 70px;
+    transition: .5s;
+    opacity: 0;
+}
+
+nav.menu-lateral.expandir .txt-link{
+    margin-left: 40px;
+    opacity: 1;
+}
+
+ul li.menuItens a .icon > i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+
+footer {
+    color: #fff;
+    bottom: 0px;
+    width: 100%;
+    background-color: #080225;
+}
+.main-content{
+    display: flex;
+    
+}
+.main-content .box{
+flex-basis: 50%;
+padding: 10px 20px;
+
+}
+.box h2{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.box .content{
+    margin: 20px 0 0 0;
+}
+.social-content{
+    flex-basis: 50%;
+    padding: 10px 20px
+}
+.icon{
+    color: #fff;
+}
+
+   
