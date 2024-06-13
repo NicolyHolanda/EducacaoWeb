@@ -1,15 +1,14 @@
 import { Link } from "react-router-dom";
+import Menu from "./menu";
 import "../style.css"
+
 
 function MenuLateral() {
 
       return (
             <div>
                   <nav class="menu-lateral">
-
-                        <div class="botao-expandir">
-                              <i class="bi bi-list" id="btn-exp"></i>
-                        </div>
+                  <Menu/>
 
                         <ul>
                               <li class="menuItens ativo">
@@ -31,16 +30,10 @@ function MenuLateral() {
                                     </Link>
                               </li>
                               <li class="menuItens">
-                                    <a href="#">
+                                    <Link to="/sobre">
                                         <span class="icon"><i class="bi bi-info-square"></i></span>
                                         <span class="txt-link">Sobre</span>
-                                    </a>
-                              </li>
-                              <li class="menuItens">
-                                    <a href="#">
-                                        <span class="icon"><i class="bi bi-chat-right-text"></i></span>
-                                        <span class="txt-link">Contato</span>
-                                    </a>
+                                    </Link>
                               </li>
                         </ul>
                   </nav>

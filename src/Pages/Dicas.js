@@ -1,5 +1,6 @@
 import Footer from "../Componentes/Footer";
 import Header from "../Componentes/Header";
+import Livros from "../Componentes/Livros";
 import MenuLateral from "../Componentes/MenuLateral";
 
 function Dicas() {
@@ -7,6 +8,7 @@ function Dicas() {
             <div>
                 <Header/>
                 <MenuLateral/>
+                <Livros/>
                 <Footer/>
             </div>
       );

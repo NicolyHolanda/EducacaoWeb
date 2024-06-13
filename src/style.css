@@ -9,20 +9,42 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200vh;
 }
+
 .cabecalho {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    min-height: 200vh;
+    min-height: 5%;
     padding-left:6%;
 }
   
 header {
     background-color: cadetblue;
     color: #182502;
-    padding: 30px 20px;
+    padding: 23px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#imagemInicio{
+    width: 20%;
+    height: 10%;
+}
+   
+
+#marca{
+    display: flex;
+    color: #100838;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+
+#pesquisa{
+    height: 30px;
+    border-radius: 10px;
 }
   
 main {
@@ -32,12 +54,11 @@ main {
 }
 
 nav.menu-lateral{
-    width: 80px;
+    width: 6%;
     height: 100%;
     background-color: cadetblue;
     padding: 40px 0 40px 1%;
     box-shadow: 3px 0 0 #080225;
-
     position: fixed;
     top: 0;
     left: 0;
@@ -103,12 +124,25 @@ ul li.menuItens a .icon > i{
     margin-left: 10px;
 }
 
+.caixas{
+    padding-left: 8%;
+    display: flex;
+}
+
+.Titulo{
+    font-family: "Playfair Display", serif;
+}
+
+.descricao{
+    font-family: "Lora", serif;
+}
 
 footer {
     color: #fff;
     bottom: 0px;
     width: 100%;
     background-color: #080225;
+    padding-left:6%;
 }
 .main-content{
     display: flex;
@@ -135,4 +169,3 @@ padding: 10px 20px;
     color: #fff;
 }
 
-   

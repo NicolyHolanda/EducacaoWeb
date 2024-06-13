@@ -6,7 +6,7 @@ function Footer() {
                     <div class="left box">
                         <h2>Sobre nós</h2>
                         <div class="content">
-                        <p>hdshdhdshdhshdhdhdhdhdhdsfsdfsidfsdifssdgfsd</p>
+                        <p>Nosso site busca trazer benefícios para<br/> a educação, utilizando a tecnologia como<br/> um importante meio para prover ferramentas<br/> de qualidade para um bom aprendizado.</p>
                         </div>
                         
                     </div>
