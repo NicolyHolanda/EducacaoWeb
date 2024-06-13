@@ -1,14 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
-   
+
 }
-body{
+
+body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #FFFAFA;
 }
 
 .cabecalho {
@@ -16,9 +18,9 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 5%;
-    padding-left:6%;
+    padding-left: 6%;
 }
-  
+
 header {
     background-color: cadetblue;
     color: #182502;
@@ -26,34 +28,59 @@ header {
     display: flex;
     justify-content: space-between;
 }
-#imagemInicio{
-    width: 20%;
-    height: 10%;
+.home{
+    padding: 20px;
+    text-align: center;
 }
-   
+.home h3 {
+    font-size: 23px;
+    color: black;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+.home p {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+}
+.content-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.texto-inicio {
+    text-align: left;
+    max-width: 500px;
+}
 
-#marca{
+.imagem-inicio{
+    height: 30%;
+    width: 20%;
+}
+
+#marca {
     display: flex;
     color: #100838;
 }
 
-#logo{
+#logo {
     width: 50px;
     height: 50px;
 }
 
-#pesquisa{
+#pesquisa {
     height: 30px;
     border-radius: 10px;
 }
-  
+
 main {
     flex: 1;
     padding: 20px;
     color: #100838;
 }
 
-nav.menu-lateral{
+nav.menu-lateral {
     width: 6%;
     height: 100%;
     background-color: cadetblue;
@@ -66,39 +93,39 @@ nav.menu-lateral{
     transition: .5s;
 }
 
-nav.menu-lateral.expandir{
+nav.menu-lateral.expandir {
     width: 250px;
 }
 
-.botao-expandir{
+.botao-expandir {
     width: 100%;
     padding-left: 10px;
 }
 
-.botao-expandir > i{
+.botao-expandir>i {
     color: #fff;
     font-size: 40px;
     cursor: pointer;
 }
 
-ul{
+ul {
     height: 100%;
     list-style-type: none;
 }
 
-ul li.menuItens{
+ul li.menuItens {
     transition: .2s;
 }
 
-ul li.ativo{
+ul li.ativo {
     background-color: #080225;
 }
 
-ul li.menuItens:hover{
+ul li.menuItens:hover {
     background: #080225;
 }
 
-ul li.menuItens a{
+ul li.menuItens a {
     color: #fff;
     text-decoration: none;
     font-size: 20px;
@@ -108,33 +135,49 @@ ul li.menuItens a{
     line-height: 40px;
 }
 
-ul li.menuItens a .txt-link{
+ul li.menuItens a .txt-link {
     margin-left: 70px;
     transition: .5s;
     opacity: 0;
 }
 
-nav.menu-lateral.expandir .txt-link{
+nav.menu-lateral.expandir .txt-link {
     margin-left: 40px;
     opacity: 1;
 }
 
-ul li.menuItens a .icon > i{
+ul li.menuItens a .icon>i {
     font-size: 30px;
     margin-left: 10px;
 }
 
-.caixas{
+.caixas {
     padding-left: 8%;
     display: flex;
 }
 
-.Titulo{
+.Titulo {
     font-family: "Playfair Display", serif;
 }
 
-.descricao{
+.descricao {
     font-family: "Lora", serif;
+}
+
+#titulo-artigo{
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+}
+
+.artigos-container{
+    padding-left: 7%;
+}
+
+.a-titles{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
 }
 
 footer {
@@ -142,30 +185,35 @@ footer {
     bottom: 0px;
     width: 100%;
     background-color: #080225;
-    padding-left:6%;
+    padding-left: 6%;
 }
-.main-content{
+
+.main-content {
     display: flex;
-    
-}
-.main-content .box{
-flex-basis: 50%;
-padding: 10px 20px;
 
 }
-.box h2{
+
+.main-content .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+
+}
+
+.box h2 {
     font-size: 20px;
     font-weight: 600;
-    
+
 }
-.box .content{
+
+.box .content {
     margin: 20px 0 0 0;
 }
-.social-content{
+
+.social-content {
     flex-basis: 50%;
     padding: 10px 20px
 }
-.icon{
+
+.icon {
     color: #fff;
 }
-
