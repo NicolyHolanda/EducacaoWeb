@@ -1,3 +1,5 @@
+/* Estilos de todo o código */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +15,16 @@ body {
     background-color: #FFFAFA;
 }
 
+.tituloPagina{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 180%;
+    padding-left: 7%;
+}
+
+/* Estilos do Header */
+
 .cabecalho {
     flex-grow: 1;
     display: flex;
@@ -24,39 +36,9 @@ body {
 header {
     background-color: cadetblue;
     color: #182502;
-    padding: 23px 10px;
+    padding: 5px 5px;
     display: flex;
     justify-content: space-between;
-}
-.home{
-    padding: 20px;
-    text-align: center;
-}
-.home h3 {
-    font-size: 23px;
-    color: black;
-    margin-bottom: 20px;
-    margin-left: 80px;
-}
-.home p {
-    font-size: 18px;
-    color: black;
-    margin-bottom: 20px;
-}
-.content-inicio {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 20px;
-}
-.texto-inicio {
-    text-align: left;
-    max-width: 500px;
-}
-
-.imagem-inicio{
-    height: 30%;
-    width: 20%;
 }
 
 #marca {
@@ -65,20 +47,26 @@ header {
 }
 
 #logo {
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
+}
+
+#nomeSite {
+    margin-top: 20%;
 }
 
 #pesquisa {
     height: 30px;
     border-radius: 10px;
+    margin-top: 30px;
 }
 
-main {
-    flex: 1;
+.home{
     padding: 20px;
-    color: #100838;
+    text-align: center;
 }
+
+/* Estilos do Menu lateral */
 
 nav.menu-lateral {
     width: 6%;
@@ -151,36 +139,152 @@ ul li.menuItens a .icon>i {
     margin-left: 10px;
 }
 
-.caixas {
-    padding-left: 8%;
-    display: flex;
-}
+/* Estilo componente Inicio */
 
-.Titulo {
-    font-family: "Playfair Display", serif;
-}
-
-.descricao {
-    font-family: "Lora", serif;
-}
-
-#titulo-artigo{
-        font-family: "Poppins", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-}
-
-.artigos-container{
+#subtitulo{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 140%;
     padding-left: 7%;
 }
 
+.descricaoInicio{
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 100%;
+    margin-bottom: 20px;
+}
+.content-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 4%;
+}
+.texto-inicio {
+    text-align: left;
+    max-width: 500px;
+}
+
+.imagem-inicio{
+    height: 30%;
+    width: 20%;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    color: #100838;
+}
+
+/* Estilo componente Livros */
+.caixas {
+    padding-left: 8%;
+    display: flex;
+    margin: 2%
+}
+.capas{
+    height: 20%;
+    width: 10%;
+    border-style: solid;
+}
+
+.Titulo {
+    margin: 1%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 140%;
+}
+
+
+.descricao {
+    margin: 1%;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 100%;
+    width: 100%;
+}
+
+/* Estilos componentes conteudo artigo */
+.inicioArtigo{
+    display: flex;
+}
+
+.container{
+    background-color: #080225;
+    padding: 1%; 
+    border-radius:50px ;
+    color: #fff;
+    width: 80%;
+    height: 4%;
+    margin-top: 8%;
+}
+.container1{
+    background-color: #080225;
+    padding: 5px; 
+    border-radius:40px ;
+    color: #fff;
+    width: 90%;
+    margin-top: 5%;
+}
+.container2{
+    background-color: #080225;
+    padding: 5px; 
+    border-radius:40px ;
+    color: #fff;
+    width: 30%;
+    margin-top: 3%
+}
+
+.artigos{
+    padding-left: 7%;
+}
+.imagemArtigo1{
+    height: 15%;
+    width: 20%;
+}
+.imagemArtigo2{
+    float: right;
+    height: 15%;
+    width: 20%;
+}
+
+#tituloPagina{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 180%;
+}
+
 .a-titles{
+        margin-left: 2px;
         font-family: "Poppins", sans-serif;
-        font-weight: 400;
+        font-weight: 200;
         font-style: normal;
 }
 
+.subtituloArtigo{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+
+.paragrafos{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 100%;
+    width: 100%;
+    margin-top: 1%;
+}
+
+/* Estilos Footer */
+
 footer {
+    clear: both;
     color: #fff;
     bottom: 0px;
     width: 100%;

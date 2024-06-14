@@ -9,7 +9,7 @@ function Header() {
             <header>
                 <div id="marca">
                     <img id="logo" src={logo}/>
-                    <h3>EducaWeb</h3>
+                    <h3 id="nomeSite">EducaWeb</h3>
                 </div>
                 <input id="pesquisa" type="text"/>
             </header>

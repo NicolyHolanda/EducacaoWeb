@@ -1,10 +1,10 @@
 function Footer() {
 	return(
 		<div>
-            <footer>
+            <footer >
                 <div class="main-content">
                     <div class="left box">
-                        <h2>Sobre nós</h2>
+                        <h2 id="sobre">Sobre nós</h2>
                         <div class="content">
                         <p>Nosso site busca trazer benefícios para<br/> a educação, utilizando a tecnologia como<br/> um importante meio para prover ferramentas<br/> de qualidade para um bom aprendizado.</p>
                         </div>

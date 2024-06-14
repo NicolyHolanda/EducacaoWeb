@@ -32,7 +32,7 @@ function Livros() {
                     <img src={corpoHumano}className="capas"/>
                 <div className="textos">
                     <h3 className="Titulo">Meu Caderno de Atividades do Corpo Humano</h3>
-                    <p className="descricao">Um guia para as crianças entenderem o fantastico copor humano, com passatempos, desenhos para colorir e muito mais.</p>
+                    <p className="descricao">Um guia para as crianças entenderem o fantastico corpo humano, com passatempos, desenhos para colorir e muito mais.</p>
                 </div>
             </div>
             <div className="caixas">

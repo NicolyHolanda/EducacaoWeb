@@ -11,7 +11,7 @@ function MenuLateral() {
                   <Menu/>
 
                         <ul>
-                              <li class="menuItens ativo">
+                              <li class="menuItens">
                                     <Link to="/">
                                         <span class="icon"><i class="bi bi-houses"></i></span>
                                         <span class="txt-link">Home</span>
@@ -30,10 +30,10 @@ function MenuLateral() {
                                     </Link>
                               </li>
                               <li class="menuItens">
-                                    <Link to="/sobre">
+                                    <a href="#sobre">
                                         <span class="icon"><i class="bi bi-info-square"></i></span>
                                         <span class="txt-link">Sobre</span>
-                                    </Link>
+                                    </a>
                               </li>
                         </ul>
                   </nav>
